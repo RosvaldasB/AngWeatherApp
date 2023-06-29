@@ -1,0 +1,11 @@
+<main>
+    <div class="temperature"><span>{{ weatherData.main.temp | number: '1.0-0' }}</span> °C</div>
+    <div class="weatherIcon">
+        <img [src]="'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png'" [alt]="weatherData.weather[0].description">
+    </div>
+</main>
+
+<!--  "'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png'" [alt]="weatherData.weather[0].description" -->
+
+<!-- custom icons -->
+<!-- "getWeatherIconUrl(weatherData.weather[0].icon)" -->

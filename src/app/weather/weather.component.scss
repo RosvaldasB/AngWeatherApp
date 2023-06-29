@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0 0 10px;
+    .temperature {
+        padding-right: 5px;
+    }
+}
